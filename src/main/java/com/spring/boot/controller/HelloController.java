@@ -11,7 +11,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
 //        System.out.println("haha");
-        return "hello spring boot!";
+        return "hello redis!";
     }
 
     @RequestMapping(value = "/user",method = RequestMethod.GET)
