@@ -26,7 +26,7 @@ public class HelloController {
 
     @RequestMapping(value = "/user",method = RequestMethod.PUT)
     public String putUser(){
-        return "PUT-张三";
+        return "PUT-张三l";
     }
 
     @RequestMapping(value = "/user",method = RequestMethod.DELETE)
